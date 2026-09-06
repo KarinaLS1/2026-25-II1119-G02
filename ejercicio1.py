@@ -6,9 +6,9 @@ pieza_metálica: bool
 prueba_dimensión = True  
 prueba_dureza = True 
 #Proceso
-pieza_metálica = prueba_dimensión and prueba_dureza
+pieza_metálica = prueba_dimensión and prueba_dureza:
 #Salidas
 if prueba_dimensión and prueba_dureza: 
-print("pieza aprobada") 
+  print("pieza aprobada") 
 else: 
-print("pieza rechazada")
+  print("pieza rechazada")
