@@ -1,13 +1,14 @@
 #Declaración
-prueba_dimensión:boolean 
-prueba_dureza:boolean 
-pieza_metálica:boolean  
+prueba_dimensión: bool
+prueba_dureza: bool 
+pieza_metálica: bool
 #Entradas
-prueba_dimensión = true 
-prueba_dureza = true 
-pieza_metálica = prueba_dimensión + prueba_dureza
+prueba_dimensión = True  
+prueba_dureza = True 
+#Proceso
+pieza_metálica = prueba_dimensión and prueba_dureza
 #Salidas
-if prueba_dimensión AND prueba_dureza
+if prueba_dimensión and prueba_dureza: 
 print("pieza aprobada") 
-else 
+else: 
 print("pieza rechazada")
